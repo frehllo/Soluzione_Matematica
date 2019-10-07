@@ -14,7 +14,7 @@ namespace ConsoleApp1
             Console.WriteLine("Inserire il terzo numero");
             int c = int.Parse(Console.ReadLine());
 
-            bool r = Operazioni.Uguale(a, b, c);
+            bool r = Metodi.Uguale(a, b, c);
             Console.WriteLine(r);
             Console.ReadLine();
         }
